@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="map"></div>
+
+<strong>Routes: </strong>
+<label>
+    <input type="checkbox" name="11-inbound.json" /> 11 (Coventry-bound)
+</label>,
+<label>
+    <input type="checkbox" name="11-outbound.json" /> 11 (Leamington-bound)
+</label>,
+<label>
+    <input type="checkbox" name="12X-outbound.json" /> 12X (University-bound)
+</label>,
+<label>
+    <input type="checkbox" name="12X-inbound.json" /> 12X (Coventry-bound)
+</label>
+
+@section Scripts
+{
+    <script type="text/javascript" src="/js/bus.js"></script>
+}
