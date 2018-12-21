@@ -48,10 +48,57 @@ body {
 }
 
 #map {
-    width: 100%; height: 80vh; border: 1px solid #000;
+    width: 100%; height: 85vh;
     margin-top: 2em;
+}
+
+body #map {
+    
 }
 
 body {
     padding-bottom: 0;
+}
+
+.leaflet-control.active .glyphicon {
+    color: orangered;
+}
+
+.dark .leaflet-popup-tip,
+.dark .leaflet-popup-content-wrapper{
+    background: #333;
+    color: white;
+}
+
+body.dark {
+    color: #fff;
+    background: #333;
+}
+
+body .container {
+    width: 100vw;
+    padding: 0;
+}
+
+nav {
+    padding: 0.25em 1em;
+}
+
+.controls {
+    text-align: center;
+    padding: 0em 2em;
+    padding-top: 1em;
+}
+
+label + label {
+    margin-left: 0.5em;
+}
+
+img.logo {
+    width: 1em;
+    display: inline;
+}
+
+.navbar-brand {
+    color: #fff !important;
 }

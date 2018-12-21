@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using CoordinateSharp;
 using Newtonsoft.Json;
 
 namespace BusTracker.Models
@@ -18,5 +22,11 @@ namespace BusTracker.Models
 
         [JsonProperty("atStop")]
         public string AtStop { get; set; }
+        
+        public DateTime CollectionTimestamp { get; set; }
+        
+        public List<BusLocation> BestGuessPastLocations { get; set; }
+
+        public double SpeedGuess { get; set; }
     }
 }
