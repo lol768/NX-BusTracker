@@ -217,7 +217,7 @@
                 m1.setLatLng([bestNewData.latitude, bestNewData.longitude]);
                 console.log(bestNewPopup.innerHTML);
                 m1.setPopupContent(bestNewPopup.innerHTML);
-                data[route] = array.filter((v,i,a) => {
+                data[route] = data[route].filter((v,i,a) => {
                     return v !== bestNewData;
                 })
             }
