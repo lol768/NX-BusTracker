@@ -161,9 +161,13 @@
         var popup = document.createElement("span");
         let ts = new Date(busLoc.collectionTimestamp);
 
+        let speed = Math.round(busLoc.speedGuess);
+        if (speed < 0) {
+            speed = "???";
+        }
         popup.innerHTML = mapName(key) + "<br /><small>Collected at " + ("0" + ts.getUTCHours()).slice(-2) + ":" +
             ("0" + ts.getUTCMinutes()).slice(-2) + ":" +
-            ("0" + ts.getUTCSeconds()).slice(-2) + "</small><br />" + Math.round(busLoc.speedGuess) + " mph";
+            ("0" + ts.getUTCSeconds()).slice(-2) + "</small><br />" + speed + " mph";
         return popup;
     }
 
