@@ -172,9 +172,6 @@
     }
 
     function updateAll(data) {
-        for (var m of oldMarkers) {
-            map.removeLayer(m);
-        }
         for (var key of Object.keys(data)) {
             if (!oldMarkersByRoute.hasOwnProperty(key)) { oldMarkersByRoute[key] = []; }
             for (var busLoc of data[key]) {
@@ -233,6 +230,9 @@
                 console.log("In place update");
                 updateInPlace(oldMarkers, data);
             } else {
+                for (var m of oldMarkers) {
+                    map.removeLayer(m);
+                }
                 oldMarkers = [];
                 oldMarkersByRoute = {};
                 console.log("Full update,", dataCount, oldMarkers.length);
