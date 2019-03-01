@@ -1,0 +1,7649 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507418,
+            52.41063
+          ],
+          [
+            -1.507351,
+            52.41073
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "maxspeed": "10 mph",
+        "profile": "bus",
+        "distance": "12.43591",
+        "time": "3.709123"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507351,
+            52.41073
+          ],
+          [
+            -1.507351,
+            52.41076
+          ],
+          [
+            -1.507376,
+            52.41081
+          ],
+          [
+            -1.507402,
+            52.41083
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "23.93591",
+        "time": "5.089123"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507402,
+            52.41083
+          ],
+          [
+            -1.507444,
+            52.41085
+          ],
+          [
+            -1.507605,
+            52.41092
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "profile": "bus",
+        "distance": "40.73591",
+        "time": "7.105123"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507605,
+            52.41092
+          ],
+          [
+            -1.507696,
+            52.41084
+          ],
+          [
+            -1.508271,
+            52.41037
+          ],
+          [
+            -1.508322,
+            52.41029
+          ],
+          [
+            -1.508319,
+            52.41024
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hales Street",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "130.9359",
+        "time": "20.5566"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508319,
+            52.41024
+          ],
+          [
+            -1.508301,
+            52.41021
+          ],
+          [
+            -1.508215,
+            52.41015
+          ],
+          [
+            -1.508105,
+            52.4101
+          ],
+          [
+            -1.507701,
+            52.40993
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fairfax Street",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "186.3359",
+        "time": "28.81837"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507701,
+            52.40993
+          ],
+          [
+            -1.507511,
+            52.40989
+          ],
+          [
+            -1.507263,
+            52.40984
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fairfax Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "217.6359",
+        "time": "33.48612"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507263,
+            52.40984
+          ],
+          [
+            -1.507003,
+            52.40981
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fairfax Street",
+        "tunnel": "building_passage",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "235.5359",
+        "time": "36.15554"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507003,
+            52.40981
+          ],
+          [
+            -1.506383,
+            52.40973
+          ],
+          [
+            -1.50611,
+            52.4097
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fairfax Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "297.4359",
+        "time": "45.38665"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.50611,
+            52.4097
+          ],
+          [
+            -1.505856,
+            52.40967
+          ],
+          [
+            -1.505083,
+            52.40957
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fairfax Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "368.4359",
+        "time": "55.97484"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.505083,
+            52.40957
+          ],
+          [
+            -1.504688,
+            52.40951
+          ],
+          [
+            -1.5038,
+            52.4094
+          ],
+          [
+            -1.503624,
+            52.40935
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fairfax Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "470.8359",
+        "time": "71.2457"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.503624,
+            52.40935
+          ],
+          [
+            -1.503543,
+            52.40932
+          ],
+          [
+            -1.503432,
+            52.40925
+          ],
+          [
+            -1.503412,
+            52.40922
+          ],
+          [
+            -1.503383,
+            52.40914
+          ],
+          [
+            -1.503387,
+            52.40905
+          ],
+          [
+            -1.503406,
+            52.40898
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cox Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "518.9359",
+        "time": "78.41882"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.503406,
+            52.40898
+          ],
+          [
+            -1.503482,
+            52.40876
+          ],
+          [
+            -1.503559,
+            52.40852
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cox Street",
+        "tunnel": "building_passage",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "570.4359",
+        "time": "86.09899"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.503559,
+            52.40852
+          ],
+          [
+            -1.503568,
+            52.4085
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cox Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "573.4359",
+        "time": "86.54638"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.503568,
+            52.4085
+          ],
+          [
+            -1.503581,
+            52.40843
+          ],
+          [
+            -1.503596,
+            52.40836
+          ],
+          [
+            -1.503677,
+            52.40809
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cox Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "618.9359",
+        "time": "93.33177"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.503677,
+            52.40809
+          ],
+          [
+            -1.503847,
+            52.40764
+          ],
+          [
+            -1.503974,
+            52.40726
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cox Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "713.5953",
+        "time": "107.4483"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.503974,
+            52.40726
+          ],
+          [
+            -1.504114,
+            52.40685
+          ],
+          [
+            -1.504148,
+            52.40679
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cox Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "767.1359",
+        "time": "115.4328"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.504148,
+            52.40679
+          ],
+          [
+            -1.504223,
+            52.40678
+          ],
+          [
+            -1.504435,
+            52.40678
+          ],
+          [
+            -1.505694,
+            52.40683
+          ],
+          [
+            -1.506111,
+            52.40684
+          ],
+          [
+            -1.506165,
+            52.40684
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jordan Well",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "904.4359",
+        "time": "135.9083"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.506165,
+            52.40684
+          ],
+          [
+            -1.506096,
+            52.40672
+          ],
+          [
+            -1.506027,
+            52.40658
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Much Park Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "935.0547",
+        "time": "140.4744"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.506027,
+            52.40658
+          ],
+          [
+            -1.506021,
+            52.40657
+          ],
+          [
+            -1.505996,
+            52.4065
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Much Park Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "943.8359",
+        "time": "141.7839"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.505996,
+            52.4065
+          ],
+          [
+            -1.505954,
+            52.4064
+          ],
+          [
+            -1.505552,
+            52.40549
+          ],
+          [
+            -1.505555,
+            52.40547
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Much Park Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1062.736",
+        "time": "159.5154"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.505555,
+            52.40547
+          ],
+          [
+            -1.505567,
+            52.40545
+          ],
+          [
+            -1.505794,
+            52.40533
+          ],
+          [
+            -1.505836,
+            52.40532
+          ]
+        ]
+      },
+      "properties": {
+        "name": "St Johns Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1088.136",
+        "time": "163.3033"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.505836,
+            52.40532
+          ],
+          [
+            -1.505884,
+            52.40532
+          ],
+          [
+            -1.506347,
+            52.40532
+          ]
+        ]
+      },
+      "properties": {
+        "name": "St Johns Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1122.736",
+        "time": "168.4632"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.506347,
+            52.40532
+          ],
+          [
+            -1.506745,
+            52.40533
+          ],
+          [
+            -1.506812,
+            52.40534
+          ],
+          [
+            -1.506871,
+            52.40535
+          ]
+        ]
+      },
+      "properties": {
+        "name": "St Johns Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1158.536",
+        "time": "173.802"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.506871,
+            52.40535
+          ],
+          [
+            -1.506932,
+            52.40535
+          ],
+          [
+            -1.507015,
+            52.40536
+          ],
+          [
+            -1.507207,
+            52.40536
+          ]
+        ]
+      },
+      "properties": {
+        "name": "St Johns Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1181.436",
+        "time": "177.2171"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.507207,
+            52.40536
+          ],
+          [
+            -1.508219,
+            52.40538
+          ]
+        ]
+      },
+      "properties": {
+        "name": "St Johns Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1250.037",
+        "time": "187.4476"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508219,
+            52.40538
+          ],
+          [
+            -1.508301,
+            52.40538
+          ],
+          [
+            -1.508478,
+            52.40538
+          ],
+          [
+            -1.508554,
+            52.40538
+          ]
+        ]
+      },
+      "properties": {
+        "name": "St Johns Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1272.736",
+        "time": "190.8326"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508554,
+            52.40538
+          ],
+          [
+            -1.508556,
+            52.4053
+          ],
+          [
+            -1.508557,
+            52.40514
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Little Park Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1299.836",
+        "time": "194.874"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508557,
+            52.40514
+          ],
+          [
+            -1.508554,
+            52.40503
+          ],
+          [
+            -1.508559,
+            52.40491
+          ],
+          [
+            -1.508566,
+            52.40488
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Little Park Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1328.635",
+        "time": "199.169"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508566,
+            52.40488
+          ],
+          [
+            -1.508566,
+            52.40483
+          ],
+          [
+            -1.508574,
+            52.40478
+          ],
+          [
+            -1.508578,
+            52.40474
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Little Park Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1343.936",
+        "time": "201.4506"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508578,
+            52.40474
+          ],
+          [
+            -1.508586,
+            52.40472
+          ],
+          [
+            -1.508666,
+            52.40463
+          ],
+          [
+            -1.508752,
+            52.40458
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Little Park Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1366.336",
+        "time": "204.7911"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508752,
+            52.40458
+          ],
+          [
+            -1.508747,
+            52.40456
+          ],
+          [
+            -1.508747,
+            52.40454
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "1369.736",
+        "time": "205.2982"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508747,
+            52.40454
+          ],
+          [
+            -1.508753,
+            52.40453
+          ],
+          [
+            -1.508795,
+            52.4045
+          ],
+          [
+            -1.50889,
+            52.40449
+          ],
+          [
+            -1.508915,
+            52.4045
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "1384.736",
+        "time": "207.5351"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508915,
+            52.4045
+          ],
+          [
+            -1.508938,
+            52.4045
+          ],
+          [
+            -1.508954,
+            52.40451
+          ],
+          [
+            -1.508966,
+            52.40453
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "1390.036",
+        "time": "208.3255"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.508966,
+            52.40453
+          ],
+          [
+            -1.509028,
+            52.40454
+          ],
+          [
+            -1.509657,
+            52.4048
+          ],
+          [
+            -1.509708,
+            52.40482
+          ]
+        ]
+      },
+      "properties": {
+        "name": "New Union Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1449.936",
+        "time": "217.2584"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.509708,
+            52.40482
+          ],
+          [
+            -1.509801,
+            52.40481
+          ],
+          [
+            -1.510005,
+            52.40473
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Manor Terrace",
+        "oneway": "yes",
+        "highway": "unclassified",
+        "profile": "bus",
+        "distance": "1472.636",
+        "time": "218.8928"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.510005,
+            52.40473
+          ],
+          [
+            -1.509971,
+            52.40483
+          ],
+          [
+            -1.509985,
+            52.40491
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Manor Terrace",
+        "oneway": "yes",
+        "highway": "unclassified",
+        "profile": "bus",
+        "distance": "1492.836",
+        "time": "220.3472"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.509985,
+            52.40491
+          ],
+          [
+            -1.510696,
+            52.40514
+          ]
+        ]
+      },
+      "properties": {
+        "name": "New Union Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1547.236",
+        "time": "228.4598"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.510696,
+            52.40514
+          ],
+          [
+            -1.510887,
+            52.40519
+          ],
+          [
+            -1.511162,
+            52.40531
+          ]
+        ]
+      },
+      "properties": {
+        "name": "New Union Street",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1584.236",
+        "time": "233.9776"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.511162,
+            52.40531
+          ],
+          [
+            -1.511292,
+            52.40535
+          ],
+          [
+            -1.511704,
+            52.40549
+          ]
+        ]
+      },
+      "properties": {
+        "name": "New Union Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1626.267",
+        "time": "240.2457"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.511704,
+            52.40549
+          ],
+          [
+            -1.511856,
+            52.40555
+          ],
+          [
+            -1.511954,
+            52.40557
+          ],
+          [
+            -1.512038,
+            52.40558
+          ]
+        ]
+      },
+      "properties": {
+        "name": "New Union Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1651.135",
+        "time": "243.9543"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.512038,
+            52.40558
+          ],
+          [
+            -1.512153,
+            52.40559
+          ],
+          [
+            -1.512291,
+            52.4056
+          ],
+          [
+            -1.512382,
+            52.40559
+          ],
+          [
+            -1.51246,
+            52.40559
+          ]
+        ]
+      },
+      "properties": {
+        "name": "New Union Street",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1679.935",
+        "time": "248.2492"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.51246,
+            52.40559
+          ],
+          [
+            -1.51251,
+            52.40557
+          ],
+          [
+            -1.512692,
+            52.40553
+          ],
+          [
+            -1.512782,
+            52.40549
+          ],
+          [
+            -1.512884,
+            52.40543
+          ],
+          [
+            -1.51297,
+            52.40536
+          ],
+          [
+            -1.513024,
+            52.40531
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1730.835",
+        "time": "255.8399"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513024,
+            52.40531
+          ],
+          [
+            -1.513213,
+            52.40505
+          ],
+          [
+            -1.513491,
+            52.40468
+          ],
+          [
+            -1.513543,
+            52.40463
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1814.135",
+        "time": "268.2624"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513543,
+            52.40463
+          ],
+          [
+            -1.513586,
+            52.40459
+          ],
+          [
+            -1.513617,
+            52.40457
+          ],
+          [
+            -1.513662,
+            52.40453
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1827.435",
+        "time": "270.2458"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513662,
+            52.40453
+          ],
+          [
+            -1.513656,
+            52.40453
+          ],
+          [
+            -1.513658,
+            52.4045
+          ],
+          [
+            -1.513692,
+            52.40448
+          ],
+          [
+            -1.513705,
+            52.40448
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "1835.435",
+        "time": "271.4388"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513705,
+            52.40448
+          ],
+          [
+            -1.51375,
+            52.40442
+          ],
+          [
+            -1.513832,
+            52.40432
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1855.535",
+        "time": "274.4363"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513832,
+            52.40432
+          ],
+          [
+            -1.513838,
+            52.40425
+          ],
+          [
+            -1.513913,
+            52.40393
+          ],
+          [
+            -1.514031,
+            52.4037
+          ],
+          [
+            -1.514083,
+            52.40363
+          ],
+          [
+            -1.514322,
+            52.40346
+          ],
+          [
+            -1.514531,
+            52.40327
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "highway": "secondary",
+        "profile": "bus",
+        "distance": "1984.535",
+        "time": "293.6741"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514531,
+            52.40327
+          ],
+          [
+            -1.514534,
+            52.40327
+          ],
+          [
+            -1.514511,
+            52.4032
+          ],
+          [
+            -1.514512,
+            52.40319
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "1994.035",
+        "time": "295.0908"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514512,
+            52.40319
+          ],
+          [
+            -1.514526,
+            52.40317
+          ],
+          [
+            -1.514554,
+            52.40313
+          ],
+          [
+            -1.514681,
+            52.40303
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2015.235",
+        "time": "298.2523"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514681,
+            52.40303
+          ],
+          [
+            -1.51472,
+            52.403
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2019.435",
+        "time": "298.8787"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.51472,
+            52.403
+          ],
+          [
+            -1.514769,
+            52.40295
+          ],
+          [
+            -1.514939,
+            52.40279
+          ],
+          [
+            -1.515063,
+            52.40265
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2064.935",
+        "time": "305.6641"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515063,
+            52.40265
+          ],
+          [
+            -1.514985,
+            52.40258
+          ],
+          [
+            -1.514888,
+            52.40254
+          ],
+          [
+            -1.514776,
+            52.40252
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2089.535",
+        "time": "309.3326"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514776,
+            52.40252
+          ],
+          [
+            -1.514602,
+            52.40256
+          ],
+          [
+            -1.514512,
+            52.40257
+          ],
+          [
+            -1.51437,
+            52.40253
+          ],
+          [
+            -1.514345,
+            52.40249
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2123.035",
+        "time": "314.3285"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514345,
+            52.40249
+          ],
+          [
+            -1.514318,
+            52.40242
+          ],
+          [
+            -1.514265,
+            52.4023
+          ],
+          [
+            -1.514215,
+            52.40219
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Eaton Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2157.235",
+        "time": "319.4287"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514215,
+            52.40219
+          ],
+          [
+            -1.514111,
+            52.40205
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Eaton Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2175.135",
+        "time": "322.0981"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514111,
+            52.40205
+          ],
+          [
+            -1.514056,
+            52.40197
+          ],
+          [
+            -1.513965,
+            52.40181
+          ],
+          [
+            -1.513956,
+            52.40178
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Eaton Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2206.635",
+        "time": "326.7957"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513956,
+            52.40178
+          ],
+          [
+            -1.513945,
+            52.40174
+          ],
+          [
+            -1.513946,
+            52.40164
+          ],
+          [
+            -1.513964,
+            52.40157
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Station Square",
+        "maxspeed": "20 mph",
+        "highway": "unclassified",
+        "profile": "bus",
+        "distance": "2230.535",
+        "time": "330.3599"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513964,
+            52.40157
+          ],
+          [
+            -1.514087,
+            52.40158
+          ],
+          [
+            -1.514138,
+            52.40162
+          ],
+          [
+            -1.514085,
+            52.40191
+          ],
+          [
+            -1.51409,
+            52.40196
+          ],
+          [
+            -1.514094,
+            52.40197
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "2284.684",
+        "time": "336.8577"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514094,
+            52.40197
+          ],
+          [
+            -1.514111,
+            52.40205
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "2292.836",
+        "time": "337.8359"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514111,
+            52.40205
+          ],
+          [
+            -1.514215,
+            52.40219
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Eaton Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2310.736",
+        "time": "340.5053"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514215,
+            52.40219
+          ],
+          [
+            -1.514265,
+            52.4023
+          ],
+          [
+            -1.514318,
+            52.40242
+          ],
+          [
+            -1.514345,
+            52.40249
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Eaton Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2344.936",
+        "time": "345.6056"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514345,
+            52.40249
+          ],
+          [
+            -1.51437,
+            52.40253
+          ],
+          [
+            -1.514512,
+            52.40257
+          ],
+          [
+            -1.514602,
+            52.40256
+          ],
+          [
+            -1.514776,
+            52.40252
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2378.436",
+        "time": "350.6014"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.514776,
+            52.40252
+          ],
+          [
+            -1.514899,
+            52.4025
+          ],
+          [
+            -1.515161,
+            52.40244
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "2406.036",
+        "time": "354.7173"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515161,
+            52.40244
+          ],
+          [
+            -1.515209,
+            52.40231
+          ],
+          [
+            -1.515232,
+            52.40222
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2431.036",
+        "time": "358.4456"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515232,
+            52.40222
+          ],
+          [
+            -1.515261,
+            52.40214
+          ],
+          [
+            -1.51528,
+            52.4021
+          ],
+          [
+            -1.515288,
+            52.40207
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2447.536",
+        "time": "360.086"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515288,
+            52.40207
+          ],
+          [
+            -1.515355,
+            52.40192
+          ],
+          [
+            -1.515396,
+            52.40186
+          ],
+          [
+            -1.515475,
+            52.40179
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2481.436",
+        "time": "363.4563"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515475,
+            52.40179
+          ],
+          [
+            -1.51554,
+            52.40175
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2488.136",
+        "time": "364.1224"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.51554,
+            52.40175
+          ],
+          [
+            -1.515584,
+            52.4017
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2494.736",
+        "time": "364.7786"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515584,
+            52.4017
+          ],
+          [
+            -1.515583,
+            52.40168
+          ],
+          [
+            -1.515587,
+            52.40166
+          ],
+          [
+            -1.515597,
+            52.40164
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "2501.136",
+        "time": "365.4149"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515597,
+            52.40164
+          ],
+          [
+            -1.515583,
+            52.40161
+          ],
+          [
+            -1.515556,
+            52.40155
+          ],
+          [
+            -1.515542,
+            52.40146
+          ],
+          [
+            -1.515548,
+            52.4014
+          ],
+          [
+            -1.51562,
+            52.40121
+          ],
+          [
+            -1.515626,
+            52.4012
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2551.336",
+        "time": "370.4058"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515626,
+            52.4012
+          ],
+          [
+            -1.515663,
+            52.40112
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "bridge": "yes",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2560.594",
+        "time": "371.3262"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515663,
+            52.40112
+          ],
+          [
+            -1.515752,
+            52.40092
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "bridge": "yes",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2583.036",
+        "time": "373.5574"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515752,
+            52.40092
+          ],
+          [
+            -1.515987,
+            52.40066
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2616.336",
+        "time": "376.8681"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515987,
+            52.40066
+          ],
+          [
+            -1.516072,
+            52.40043
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2641.936",
+        "time": "379.4132"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516072,
+            52.40043
+          ],
+          [
+            -1.516123,
+            52.40026
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2661.236",
+        "time": "381.332"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516123,
+            52.40026
+          ],
+          [
+            -1.516161,
+            52.40015
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2673.336",
+        "time": "382.535"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516161,
+            52.40015
+          ],
+          [
+            -1.516214,
+            52.40001
+          ],
+          [
+            -1.516266,
+            52.39981
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2712.536",
+        "time": "386.4323"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516266,
+            52.39981
+          ],
+          [
+            -1.516381,
+            52.39944
+          ],
+          [
+            -1.516473,
+            52.39906
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2796.436",
+        "time": "394.7736"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516473,
+            52.39906
+          ],
+          [
+            -1.516572,
+            52.3986
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2848.536",
+        "time": "399.9533"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516572,
+            52.3986
+          ],
+          [
+            -1.516599,
+            52.39843
+          ],
+          [
+            -1.51663,
+            52.39825
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2887.236",
+        "time": "403.8009"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.51663,
+            52.39825
+          ],
+          [
+            -1.516674,
+            52.39798
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "2917.49",
+        "time": "406.8087"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516674,
+            52.39798
+          ],
+          [
+            -1.516709,
+            52.39776
+          ],
+          [
+            -1.516912,
+            52.39668
+          ],
+          [
+            -1.516923,
+            52.39662
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "3069.436",
+        "time": "421.9151"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516923,
+            52.39662
+          ],
+          [
+            -1.517016,
+            52.39642
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Warwick Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "3092.736",
+        "time": "424.2316"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.517016,
+            52.39642
+          ],
+          [
+            -1.517063,
+            52.39635
+          ],
+          [
+            -1.517145,
+            52.39625
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "3113.336",
+        "time": "426.2796"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.517145,
+            52.39625
+          ],
+          [
+            -1.517215,
+            52.39618
+          ],
+          [
+            -1.517464,
+            52.396
+          ],
+          [
+            -1.517644,
+            52.39592
+          ],
+          [
+            -1.518254,
+            52.39575
+          ],
+          [
+            -1.518579,
+            52.39568
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "3232.836",
+        "time": "438.1603"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.518579,
+            52.39568
+          ],
+          [
+            -1.519751,
+            52.39544
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "3316.787",
+        "time": "446.5067"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.519751,
+            52.39544
+          ],
+          [
+            -1.519811,
+            52.39543
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "maxspeed": "30 mph",
+        "highway": "primary",
+        "profile": "bus",
+        "distance": "3321.036",
+        "time": "446.9291"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.519811,
+            52.39543
+          ],
+          [
+            -1.521059,
+            52.39516
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "3410.736",
+        "time": "453.6176"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.521059,
+            52.39516
+          ],
+          [
+            -1.52231,
+            52.39487
+          ],
+          [
+            -1.5233,
+            52.39465
+          ],
+          [
+            -1.524884,
+            52.39432
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "3686.636",
+        "time": "474.19"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.524884,
+            52.39432
+          ],
+          [
+            -1.525133,
+            52.39425
+          ],
+          [
+            -1.525718,
+            52.39411
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "3747.743",
+        "time": "478.7464"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.525718,
+            52.39411
+          ],
+          [
+            -1.52742,
+            52.3937
+          ],
+          [
+            -1.527724,
+            52.39359
+          ],
+          [
+            -1.527941,
+            52.3935
+          ],
+          [
+            -1.528168,
+            52.39338
+          ],
+          [
+            -1.528372,
+            52.39324
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "3954.936",
+        "time": "494.1957"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.528372,
+            52.39324
+          ],
+          [
+            -1.528572,
+            52.39307
+          ],
+          [
+            -1.528905,
+            52.39273
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4021.636",
+        "time": "499.1692"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.528905,
+            52.39273
+          ],
+          [
+            -1.529131,
+            52.39249
+          ],
+          [
+            -1.5294,
+            52.39221
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4088.852",
+        "time": "504.1811"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5294,
+            52.39221
+          ],
+          [
+            -1.531377,
+            52.39013
+          ],
+          [
+            -1.531441,
+            52.39006
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4365.536",
+        "time": "524.812"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.531441,
+            52.39006
+          ],
+          [
+            -1.531634,
+            52.38986
+          ],
+          [
+            -1.531676,
+            52.38982
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4396.236",
+        "time": "527.1011"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.531676,
+            52.38982
+          ],
+          [
+            -1.531944,
+            52.38955
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4431.089",
+        "time": "529.7"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.531944,
+            52.38955
+          ],
+          [
+            -1.5324,
+            52.3891
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4490.535",
+        "time": "534.1326"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5324,
+            52.3891
+          ],
+          [
+            -1.532741,
+            52.38874
+          ],
+          [
+            -1.532878,
+            52.3886
+          ],
+          [
+            -1.5339,
+            52.3875
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4694.535",
+        "time": "549.3438"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5339,
+            52.3875
+          ],
+          [
+            -1.534128,
+            52.38727
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4724.735",
+        "time": "551.5957"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.534128,
+            52.38727
+          ],
+          [
+            -1.534688,
+            52.3867
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4798.734",
+        "time": "557.1135"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.534688,
+            52.3867
+          ],
+          [
+            -1.534896,
+            52.38648
+          ],
+          [
+            -1.534954,
+            52.38642
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4834.834",
+        "time": "559.8052"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.534954,
+            52.38642
+          ],
+          [
+            -1.535007,
+            52.38636
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "4842.435",
+        "time": "560.3719"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535007,
+            52.38636
+          ],
+          [
+            -1.535355,
+            52.38599
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "4889.135",
+        "time": "563.1577"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535355,
+            52.38599
+          ],
+          [
+            -1.535508,
+            52.38583
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "4909.734",
+        "time": "564.3865"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535508,
+            52.38583
+          ],
+          [
+            -1.535694,
+            52.38564
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "4934.334",
+        "time": "565.8539"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535694,
+            52.38564
+          ],
+          [
+            -1.535527,
+            52.38557
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "profile": "bus",
+        "distance": "4947.973",
+        "time": "567.4906"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535527,
+            52.38557
+          ],
+          [
+            -1.535694,
+            52.38564
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "profile": "bus",
+        "distance": "4961.612",
+        "time": "569.1272"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535694,
+            52.38564
+          ],
+          [
+            -1.535856,
+            52.38547
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "4983.612",
+        "time": "570.4396"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535856,
+            52.38547
+          ],
+          [
+            -1.536105,
+            52.38521
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5017.012",
+        "time": "572.4319"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.536105,
+            52.38521
+          ],
+          [
+            -1.536464,
+            52.38484
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5065.112",
+        "time": "575.3012"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.536464,
+            52.38484
+          ],
+          [
+            -1.536795,
+            52.38449
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5109.711",
+        "time": "577.9617"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.536795,
+            52.38449
+          ],
+          [
+            -1.537331,
+            52.38393
+          ],
+          [
+            -1.537623,
+            52.38364
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5219.711",
+        "time": "584.5234"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.537623,
+            52.38364
+          ],
+          [
+            -1.537839,
+            52.38342
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5248.711",
+        "time": "586.2532"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.537839,
+            52.38342
+          ],
+          [
+            -1.538177,
+            52.38306
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5293.912",
+        "time": "588.9495"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.538177,
+            52.38306
+          ],
+          [
+            -1.538521,
+            52.38271
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5340.012",
+        "time": "591.6995"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.538521,
+            52.38271
+          ],
+          [
+            -1.538635,
+            52.38259
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5355.211",
+        "time": "592.6062"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.538635,
+            52.38259
+          ],
+          [
+            -1.538767,
+            52.38245
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5372.912",
+        "time": "593.662"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.538767,
+            52.38245
+          ],
+          [
+            -1.538918,
+            52.38229
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5393.012",
+        "time": "594.861"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.538918,
+            52.38229
+          ],
+          [
+            -1.538979,
+            52.38223
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5401.312",
+        "time": "595.3561"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.538979,
+            52.38223
+          ],
+          [
+            -1.539125,
+            52.38208
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5420.912",
+        "time": "596.5253"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539125,
+            52.38208
+          ],
+          [
+            -1.539226,
+            52.38197
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5434.426",
+        "time": "597.3315"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539226,
+            52.38197
+          ],
+          [
+            -1.539312,
+            52.38188
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5446.011",
+        "time": "598.0226"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539312,
+            52.38188
+          ],
+          [
+            -1.539405,
+            52.38179
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5458.311",
+        "time": "598.7563"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539405,
+            52.38179
+          ],
+          [
+            -1.539725,
+            52.38145
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5501.111",
+        "time": "601.3094"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539725,
+            52.38145
+          ],
+          [
+            -1.539765,
+            52.38141
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5506.511",
+        "time": "601.6315"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539765,
+            52.38141
+          ],
+          [
+            -1.54001,
+            52.38115
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5539.811",
+        "time": "603.6179"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.54001,
+            52.38115
+          ],
+          [
+            -1.540132,
+            52.38103
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5556.011",
+        "time": "604.5843"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.540132,
+            52.38103
+          ],
+          [
+            -1.540273,
+            52.38088
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5575.011",
+        "time": "605.7177"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.540273,
+            52.38088
+          ],
+          [
+            -1.5406,
+            52.38054
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5619.111",
+        "time": "608.3483"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5406,
+            52.38054
+          ],
+          [
+            -1.540844,
+            52.38028
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5651.911",
+        "time": "610.3049"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.540844,
+            52.38028
+          ],
+          [
+            -1.540904,
+            52.38022
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5659.711",
+        "time": "610.7701"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.540904,
+            52.38022
+          ],
+          [
+            -1.541115,
+            52.38
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5687.711",
+        "time": "612.4404"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.541115,
+            52.38
+          ],
+          [
+            -1.54117,
+            52.37994
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5695.011",
+        "time": "612.8759"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.54117,
+            52.37994
+          ],
+          [
+            -1.541349,
+            52.37976
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5719.011",
+        "time": "614.3075"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.541349,
+            52.37976
+          ],
+          [
+            -1.541732,
+            52.37936
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5770.111",
+        "time": "617.3557"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.541732,
+            52.37936
+          ],
+          [
+            -1.541903,
+            52.37918
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5792.711",
+        "time": "618.7039"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.541903,
+            52.37918
+          ],
+          [
+            -1.542121,
+            52.37896
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5821.711",
+        "time": "620.4338"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.542121,
+            52.37896
+          ],
+          [
+            -1.542551,
+            52.37851
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5879.211",
+        "time": "623.8637"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.542551,
+            52.37851
+          ],
+          [
+            -1.542673,
+            52.37839
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5895.411",
+        "time": "624.8301"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.542673,
+            52.37839
+          ],
+          [
+            -1.543083,
+            52.37796
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "5950.011",
+        "time": "628.0871"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.543083,
+            52.37796
+          ],
+          [
+            -1.543464,
+            52.37757
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "6000.711",
+        "time": "631.1115"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.543464,
+            52.37757
+          ],
+          [
+            -1.543686,
+            52.37734
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "6030.611",
+        "time": "632.895"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.543686,
+            52.37734
+          ],
+          [
+            -1.544065,
+            52.37695
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "6080.911",
+        "time": "635.8955"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.544065,
+            52.37695
+          ],
+          [
+            -1.544689,
+            52.3763
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "6164.481",
+        "time": "640.8806"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.544689,
+            52.3763
+          ],
+          [
+            -1.544803,
+            52.37618
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "6179.811",
+        "time": "641.795"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.544803,
+            52.37618
+          ],
+          [
+            -1.54481,
+            52.37617
+          ],
+          [
+            -1.545323,
+            52.37565
+          ],
+          [
+            -1.54674,
+            52.37418
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "6438.411",
+        "time": "657.221"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.54674,
+            52.37418
+          ],
+          [
+            -1.549785,
+            52.37099
+          ],
+          [
+            -1.549869,
+            52.37091
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "maxspeed": "50 mph",
+        "profile": "bus",
+        "distance": "6859.811",
+        "time": "682.3583"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.549869,
+            52.37091
+          ],
+          [
+            -1.54982,
+            52.37087
+          ],
+          [
+            -1.549808,
+            52.37082
+          ],
+          [
+            -1.549836,
+            52.37078
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "6875.71",
+        "time": "682.9943"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.549836,
+            52.37078
+          ],
+          [
+            -1.549889,
+            52.37075
+          ],
+          [
+            -1.549957,
+            52.37074
+          ],
+          [
+            -1.550025,
+            52.37075
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "6889.71",
+        "time": "683.5543"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.550025,
+            52.37075
+          ],
+          [
+            -1.550075,
+            52.37078
+          ],
+          [
+            -1.550103,
+            52.37082
+          ],
+          [
+            -1.550101,
+            52.37085
+          ],
+          [
+            -1.550071,
+            52.37089
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kenilworth Road",
+        "highway": "primary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "6907.811",
+        "time": "684.2783"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.550071,
+            52.37089
+          ],
+          [
+            -1.550112,
+            52.37091
+          ],
+          [
+            -1.550429,
+            52.37109
+          ],
+          [
+            -1.550644,
+            52.37126
+          ],
+          [
+            -1.550821,
+            52.37148
+          ],
+          [
+            -1.551003,
+            52.37179
+          ],
+          [
+            -1.55126,
+            52.37227
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7084.811",
+        "time": "697.4762"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.55126,
+            52.37227
+          ],
+          [
+            -1.551479,
+            52.37267
+          ],
+          [
+            -1.551617,
+            52.37288
+          ],
+          [
+            -1.551752,
+            52.37305
+          ],
+          [
+            -1.55194,
+            52.37323
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7201.611",
+        "time": "706.1854"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.55194,
+            52.37323
+          ],
+          [
+            -1.552018,
+            52.37329
+          ],
+          [
+            -1.552441,
+            52.37355
+          ],
+          [
+            -1.552744,
+            52.37371
+          ],
+          [
+            -1.553251,
+            52.37394
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7320.611",
+        "time": "715.0586"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.553251,
+            52.37394
+          ],
+          [
+            -1.553724,
+            52.37411
+          ],
+          [
+            -1.554134,
+            52.37424
+          ],
+          [
+            -1.55559,
+            52.37461
+          ],
+          [
+            -1.555839,
+            52.37469
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7515.252",
+        "time": "729.5719"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.555839,
+            52.37469
+          ],
+          [
+            -1.555912,
+            52.37471
+          ],
+          [
+            -1.556361,
+            52.37487
+          ],
+          [
+            -1.556868,
+            52.37503
+          ],
+          [
+            -1.55851,
+            52.37539
+          ],
+          [
+            -1.558884,
+            52.37549
+          ],
+          [
+            -1.558967,
+            52.37552
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7747.711",
+        "time": "746.9052"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.558967,
+            52.37552
+          ],
+          [
+            -1.559394,
+            52.37569
+          ],
+          [
+            -1.559755,
+            52.37583
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7811.312",
+        "time": "751.6475"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.559755,
+            52.37583
+          ],
+          [
+            -1.559836,
+            52.37587
+          ],
+          [
+            -1.559997,
+            52.37593
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7831.011",
+        "time": "753.1164"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.559997,
+            52.37593
+          ],
+          [
+            -1.560689,
+            52.37619
+          ],
+          [
+            -1.561048,
+            52.3763
+          ],
+          [
+            -1.561351,
+            52.37639
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7936.312",
+        "time": "760.9681"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561351,
+            52.37639
+          ],
+          [
+            -1.561685,
+            52.37642
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "7959.111",
+        "time": "762.6682"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561685,
+            52.37642
+          ],
+          [
+            -1.561743,
+            52.3764
+          ],
+          [
+            -1.561807,
+            52.37639
+          ],
+          [
+            -1.561871,
+            52.3764
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "7972.211",
+        "time": "763.9706"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561871,
+            52.3764
+          ],
+          [
+            -1.561967,
+            52.37644
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "7980.211",
+        "time": "764.7659"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561967,
+            52.37644
+          ],
+          [
+            -1.56199,
+            52.37646
+          ],
+          [
+            -1.562014,
+            52.37651
+          ],
+          [
+            -1.562013,
+            52.37654
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "7991.511",
+        "time": "765.8893"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562013,
+            52.37654
+          ],
+          [
+            -1.562098,
+            52.37662
+          ],
+          [
+            -1.562178,
+            52.37671
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8014.011",
+        "time": "768.1263"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562178,
+            52.37671
+          ],
+          [
+            -1.562302,
+            52.37681
+          ],
+          [
+            -1.562477,
+            52.37701
+          ],
+          [
+            -1.562539,
+            52.37719
+          ],
+          [
+            -1.562557,
+            52.37729
+          ],
+          [
+            -1.562568,
+            52.37778
+          ],
+          [
+            -1.562594,
+            52.3779
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8152.911",
+        "time": "781.9357"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562594,
+            52.3779
+          ],
+          [
+            -1.562636,
+            52.37803
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8167.611",
+        "time": "784.1279"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562636,
+            52.37803
+          ],
+          [
+            -1.562654,
+            52.37809
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8174.011",
+        "time": "785.0823"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562654,
+            52.37809
+          ],
+          [
+            -1.562844,
+            52.37858
+          ],
+          [
+            -1.562852,
+            52.37869
+          ],
+          [
+            -1.562838,
+            52.37881
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8255.711",
+        "time": "797.2662"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562838,
+            52.37881
+          ],
+          [
+            -1.562841,
+            52.37886
+          ],
+          [
+            -1.56289,
+            52.37896
+          ],
+          [
+            -1.562939,
+            52.37899
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8277.812",
+        "time": "800.562"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562939,
+            52.37899
+          ],
+          [
+            -1.56298,
+            52.37901
+          ],
+          [
+            -1.563041,
+            52.37905
+          ],
+          [
+            -1.563066,
+            52.3791
+          ],
+          [
+            -1.563065,
+            52.37913
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "8296.111",
+        "time": "803.291"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563065,
+            52.37913
+          ],
+          [
+            -1.563111,
+            52.37918
+          ],
+          [
+            -1.563147,
+            52.37924
+          ],
+          [
+            -1.563201,
+            52.37936
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8324.012",
+        "time": "807.4518"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563201,
+            52.37936
+          ],
+          [
+            -1.563223,
+            52.3794
+          ],
+          [
+            -1.563401,
+            52.37981
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8375.812",
+        "time": "815.1766"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563401,
+            52.37981
+          ],
+          [
+            -1.563231,
+            52.37984
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "8387.711",
+        "time": "816.6047"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563231,
+            52.37984
+          ],
+          [
+            -1.563008,
+            52.37987
+          ],
+          [
+            -1.562941,
+            52.37987
+          ],
+          [
+            -1.562909,
+            52.37987
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "8410.012",
+        "time": "819.2806"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562909,
+            52.37987
+          ],
+          [
+            -1.562882,
+            52.37986
+          ],
+          [
+            -1.562854,
+            52.37984
+          ],
+          [
+            -1.562573,
+            52.37956
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "8451.053",
+        "time": "824.2056"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562573,
+            52.37956
+          ],
+          [
+            -1.562304,
+            52.3793
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "8485.611",
+        "time": "828.3527"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562304,
+            52.3793
+          ],
+          [
+            -1.562278,
+            52.37925
+          ],
+          [
+            -1.562274,
+            52.37919
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "8498.212",
+        "time": "829.8647"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562274,
+            52.37919
+          ],
+          [
+            -1.562363,
+            52.37918
+          ],
+          [
+            -1.56249,
+            52.37918
+          ]
+        ]
+      },
+      "properties": {
+        "name": "University Road",
+        "maxspeed": "20 mph",
+        "highway": "unclassified",
+        "profile": "bus",
+        "distance": "8512.812",
+        "time": "832.042"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56249,
+            52.37918
+          ],
+          [
+            -1.562556,
+            52.37917
+          ],
+          [
+            -1.562598,
+            52.37915
+          ],
+          [
+            -1.562652,
+            52.3791
+          ],
+          [
+            -1.562671,
+            52.37908
+          ]
+        ]
+      },
+      "properties": {
+        "name": "University Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "unclassified",
+        "profile": "bus",
+        "distance": "8530.512",
+        "time": "834.6816"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562671,
+            52.37908
+          ],
+          [
+            -1.562689,
+            52.37906
+          ],
+          [
+            -1.562715,
+            52.37903
+          ],
+          [
+            -1.562743,
+            52.37901
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "8539.312",
+        "time": "835.9939"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562743,
+            52.37901
+          ],
+          [
+            -1.562775,
+            52.379
+          ],
+          [
+            -1.562813,
+            52.37899
+          ],
+          [
+            -1.562898,
+            52.37899
+          ],
+          [
+            -1.562939,
+            52.37899
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "8553.412",
+        "time": "838.0967"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562939,
+            52.37899
+          ],
+          [
+            -1.56298,
+            52.37901
+          ],
+          [
+            -1.563041,
+            52.37905
+          ],
+          [
+            -1.563066,
+            52.3791
+          ],
+          [
+            -1.563065,
+            52.37913
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "8571.712",
+        "time": "840.8257"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563065,
+            52.37913
+          ],
+          [
+            -1.563111,
+            52.37918
+          ],
+          [
+            -1.563147,
+            52.37924
+          ],
+          [
+            -1.563201,
+            52.37936
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8599.611",
+        "time": "844.9865"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563201,
+            52.37936
+          ],
+          [
+            -1.563223,
+            52.3794
+          ],
+          [
+            -1.563401,
+            52.37981
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8651.412",
+        "time": "852.7114"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563401,
+            52.37981
+          ],
+          [
+            -1.563447,
+            52.37993
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8664.512",
+        "time": "854.6649"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563447,
+            52.37993
+          ],
+          [
+            -1.563682,
+            52.38039
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8718.212",
+        "time": "862.6732"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563682,
+            52.38039
+          ],
+          [
+            -1.563705,
+            52.38044
+          ],
+          [
+            -1.564766,
+            52.3823
+          ],
+          [
+            -1.564931,
+            52.38254
+          ],
+          [
+            -1.56497,
+            52.38258
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "8977.412",
+        "time": "901.3275"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56497,
+            52.38258
+          ],
+          [
+            -1.565109,
+            52.38268
+          ],
+          [
+            -1.56525,
+            52.38274
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "20 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9003.412",
+        "time": "905.2049"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56525,
+            52.38274
+          ],
+          [
+            -1.565282,
+            52.38274
+          ],
+          [
+            -1.565322,
+            52.38274
+          ],
+          [
+            -1.565364,
+            52.38275
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "9011.312",
+        "time": "905.9904"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.565364,
+            52.38275
+          ],
+          [
+            -1.565401,
+            52.38276
+          ],
+          [
+            -1.565489,
+            52.3828
+          ],
+          [
+            -1.565506,
+            52.38283
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "9025.111",
+        "time": "907.3623"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.565506,
+            52.38283
+          ],
+          [
+            -1.565512,
+            52.38285
+          ],
+          [
+            -1.565509,
+            52.38288
+          ],
+          [
+            -1.565498,
+            52.3829
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "9033.312",
+        "time": "908.1776"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.565498,
+            52.3829
+          ],
+          [
+            -1.565536,
+            52.38297
+          ],
+          [
+            -1.565558,
+            52.38302
+          ],
+          [
+            -1.565651,
+            52.38317
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9065.512",
+        "time": "911.3788"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.565651,
+            52.38317
+          ],
+          [
+            -1.565712,
+            52.38324
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9073.812",
+        "time": "912.204"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.565712,
+            52.38324
+          ],
+          [
+            -1.56582,
+            52.38335
+          ],
+          [
+            -1.566011,
+            52.38348
+          ],
+          [
+            -1.566242,
+            52.38359
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9127.712",
+        "time": "917.5627"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.566242,
+            52.38359
+          ],
+          [
+            -1.566604,
+            52.38375
+          ],
+          [
+            -1.566946,
+            52.38393
+          ],
+          [
+            -1.567024,
+            52.38399
+          ],
+          [
+            -1.567108,
+            52.38409
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9209.411",
+        "time": "925.6853"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567108,
+            52.38409
+          ],
+          [
+            -1.567241,
+            52.38426
+          ],
+          [
+            -1.567435,
+            52.3845
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9259.916",
+        "time": "930.7064"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567435,
+            52.3845
+          ],
+          [
+            -1.567463,
+            52.38453
+          ],
+          [
+            -1.567511,
+            52.38463
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9275.212",
+        "time": "932.2271"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567511,
+            52.38463
+          ],
+          [
+            -1.567608,
+            52.38467
+          ],
+          [
+            -1.567692,
+            52.38471
+          ],
+          [
+            -1.567774,
+            52.38476
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gibbet Hill Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9298.212",
+        "time": "934.5137"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567774,
+            52.38476
+          ],
+          [
+            -1.567839,
+            52.38475
+          ],
+          [
+            -1.567916,
+            52.38477
+          ],
+          [
+            -1.567944,
+            52.38479
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "9310.812",
+        "time": "935.4532"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567944,
+            52.38479
+          ],
+          [
+            -1.567982,
+            52.38482
+          ],
+          [
+            -1.567995,
+            52.38489
+          ],
+          [
+            -1.567981,
+            52.38491
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "9325.512",
+        "time": "936.5494"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567981,
+            52.38491
+          ],
+          [
+            -1.567967,
+            52.38493
+          ],
+          [
+            -1.567846,
+            52.38498
+          ],
+          [
+            -1.567809,
+            52.38498
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "9340.611",
+        "time": "937.6753"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567809,
+            52.38498
+          ],
+          [
+            -1.567777,
+            52.38498
+          ],
+          [
+            -1.567745,
+            52.38498
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "9344.911",
+        "time": "937.9959"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567745,
+            52.38498
+          ],
+          [
+            -1.567549,
+            52.38501
+          ],
+          [
+            -1.567401,
+            52.38504
+          ],
+          [
+            -1.567271,
+            52.38506
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9378.512",
+        "time": "941.3364"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567271,
+            52.38506
+          ],
+          [
+            -1.56724,
+            52.38508
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9381.111",
+        "time": "941.5949"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56724,
+            52.38508
+          ],
+          [
+            -1.567063,
+            52.38514
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "bridge": "yes",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9395.111",
+        "time": "942.9868"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567063,
+            52.38514
+          ],
+          [
+            -1.566949,
+            52.38519
+          ],
+          [
+            -1.56654,
+            52.3854
+          ],
+          [
+            -1.566103,
+            52.38565
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9481.611",
+        "time": "951.5866"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.566103,
+            52.38565
+          ],
+          [
+            -1.565461,
+            52.38605
+          ],
+          [
+            -1.565183,
+            52.38621
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9569.512",
+        "time": "960.3256"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.565183,
+            52.38621
+          ],
+          [
+            -1.564877,
+            52.38638
+          ],
+          [
+            -1.564556,
+            52.38655
+          ],
+          [
+            -1.564369,
+            52.38665
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9643.111",
+        "time": "967.6429"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.564369,
+            52.38665
+          ],
+          [
+            -1.564209,
+            52.38673
+          ],
+          [
+            -1.563926,
+            52.38686
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9681.412",
+        "time": "971.4506"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563926,
+            52.38686
+          ],
+          [
+            -1.563596,
+            52.38702
+          ],
+          [
+            -1.562971,
+            52.3873
+          ],
+          [
+            -1.561728,
+            52.3878
+          ],
+          [
+            -1.561676,
+            52.38781
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9867.21",
+        "time": "989.9226"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561676,
+            52.38781
+          ],
+          [
+            -1.561368,
+            52.38791
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "9890.612",
+        "time": "992.2492"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561368,
+            52.38791
+          ],
+          [
+            -1.56109,
+            52.388
+          ],
+          [
+            -1.560733,
+            52.3881
+          ],
+          [
+            -1.559804,
+            52.38832
+          ],
+          [
+            -1.559184,
+            52.38851
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "10053.41",
+        "time": "1008.435"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.559184,
+            52.38851
+          ],
+          [
+            -1.558874,
+            52.38862
+          ],
+          [
+            -1.558434,
+            52.38882
+          ],
+          [
+            -1.557921,
+            52.38917
+          ],
+          [
+            -1.557649,
+            52.38933
+          ],
+          [
+            -1.55754,
+            52.38939
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "10202.61",
+        "time": "1023.268"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.55754,
+            52.38939
+          ],
+          [
+            -1.557455,
+            52.38942
+          ],
+          [
+            -1.557146,
+            52.38953
+          ],
+          [
+            -1.557001,
+            52.38958
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "10245.11",
+        "time": "1027.494"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.557001,
+            52.38958
+          ],
+          [
+            -1.556774,
+            52.38967
+          ],
+          [
+            -1.556737,
+            52.38968
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "10266.05",
+        "time": "1029.575"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556737,
+            52.38968
+          ],
+          [
+            -1.556516,
+            52.38973
+          ],
+          [
+            -1.556426,
+            52.38974
+          ],
+          [
+            -1.556263,
+            52.38974
+          ],
+          [
+            -1.556025,
+            52.38973
+          ],
+          [
+            -1.555931,
+            52.38972
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kirby Corner Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "10322.11",
+        "time": "1035.149"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.555931,
+            52.38972
+          ],
+          [
+            -1.555889,
+            52.38974
+          ],
+          [
+            -1.555788,
+            52.38976
+          ],
+          [
+            -1.555733,
+            52.38975
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "10336.31",
+        "time": "1036.561"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.555733,
+            52.38975
+          ],
+          [
+            -1.555651,
+            52.38978
+          ],
+          [
+            -1.555337,
+            52.38998
+          ],
+          [
+            -1.555226,
+            52.39009
+          ],
+          [
+            -1.555151,
+            52.39021
+          ],
+          [
+            -1.555145,
+            52.39027
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sir Henry Parkes Road",
+        "maxspeed": "30 mph",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "profile": "bus",
+        "distance": "10408.51",
+        "time": "1043.739"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.555145,
+            52.39027
+          ],
+          [
+            -1.555229,
+            52.39033
+          ]
+        ]
+      },
+      "properties": {
+        "maxspeed": "30 mph",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "profile": "bus",
+        "distance": "10417.71",
+        "time": "1044.653"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.555229,
+            52.39033
+          ],
+          [
+            -1.555314,
+            52.39036
+          ],
+          [
+            -1.555427,
+            52.3904
+          ],
+          [
+            -1.555537,
+            52.39041
+          ],
+          [
+            -1.555795,
+            52.39043
+          ],
+          [
+            -1.556499,
+            52.39045
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Charter Avenue",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "10505.93",
+        "time": "1051.231"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556499,
+            52.39045
+          ],
+          [
+            -1.556548,
+            52.39045
+          ],
+          [
+            -1.556776,
+            52.39046
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Charter Avenue",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "10524.82",
+        "time": "1052.639"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556776,
+            52.39046
+          ],
+          [
+            -1.557101,
+            52.39048
+          ],
+          [
+            -1.557309,
+            52.39049
+          ],
+          [
+            -1.557777,
+            52.39054
+          ],
+          [
+            -1.558021,
+            52.39058
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Charter Avenue",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "10610.52",
+        "time": "1059.029"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.558021,
+            52.39058
+          ],
+          [
+            -1.559021,
+            52.39074
+          ],
+          [
+            -1.560071,
+            52.3909
+          ],
+          [
+            -1.560522,
+            52.39096
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Charter Avenue",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "10785.32",
+        "time": "1072.063"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560522,
+            52.39096
+          ],
+          [
+            -1.560871,
+            52.39101
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Charter Avenue",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "10809.74",
+        "time": "1073.885"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560871,
+            52.39101
+          ],
+          [
+            -1.56173,
+            52.39114
+          ],
+          [
+            -1.562177,
+            52.39121
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Charter Avenue",
+        "oneway": "yes",
+        "highway": "tertiary",
+        "maxspeed": "40 mph",
+        "profile": "bus",
+        "distance": "10901.02",
+        "time": "1080.691"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562177,
+            52.39121
+          ],
+          [
+            -1.56214,
+            52.3913
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "highway": "unclassified",
+        "profile": "bus",
+        "distance": "10911.02",
+        "time": "1081.411"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56214,
+            52.3913
+          ],
+          [
+            -1.562097,
+            52.39139
+          ],
+          [
+            -1.561316,
+            52.39317
+          ],
+          [
+            -1.561277,
+            52.39325
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11135.12",
+        "time": "1097.546"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561277,
+            52.39325
+          ],
+          [
+            -1.561247,
+            52.39331
+          ],
+          [
+            -1.561071,
+            52.39357
+          ],
+          [
+            -1.560997,
+            52.39364
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11182.87",
+        "time": "1100.985"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560997,
+            52.39364
+          ],
+          [
+            -1.560842,
+            52.39379
+          ],
+          [
+            -1.560778,
+            52.39384
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11209.61",
+        "time": "1102.911"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560778,
+            52.39384
+          ],
+          [
+            -1.560697,
+            52.39389
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11217.61",
+        "time": "1103.486"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560697,
+            52.39389
+          ],
+          [
+            -1.560621,
+            52.39394
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "bridge": "yes",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11225.11",
+        "time": "1104.026"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560621,
+            52.39394
+          ],
+          [
+            -1.560521,
+            52.394
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11234.61",
+        "time": "1104.71"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560521,
+            52.394
+          ],
+          [
+            -1.56039,
+            52.39408
+          ],
+          [
+            -1.560275,
+            52.39414
+          ],
+          [
+            -1.560208,
+            52.39417
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sheriff Avenue",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11263.11",
+        "time": "1106.762"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560208,
+            52.39417
+          ],
+          [
+            -1.560185,
+            52.39419
+          ],
+          [
+            -1.560157,
+            52.39423
+          ],
+          [
+            -1.560173,
+            52.39432
+          ],
+          [
+            -1.560216,
+            52.39436
+          ],
+          [
+            -1.560302,
+            52.39438
+          ],
+          [
+            -1.560329,
+            52.39439
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "11294.01",
+        "time": "1110.47"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560329,
+            52.39439
+          ],
+          [
+            -1.560433,
+            52.39438
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Prior Deram Walk",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11301.01",
+        "time": "1110.974"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560433,
+            52.39438
+          ],
+          [
+            -1.56056,
+            52.39438
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Prior Deram Walk",
+        "highway": "residential",
+        "profile": "bus",
+        "distance": "11309.51",
+        "time": "1111.587"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56056,
+            52.39438
+          ],
+          [
+            -1.560616,
+            52.39437
+          ],
+          [
+            -1.560682,
+            52.39434
+          ],
+          [
+            -1.560717,
+            52.39427
+          ],
+          [
+            -1.560711,
+            52.39423
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "11332.21",
+        "time": "1114.311"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "ShapeMeta",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560711,
+            52.39423
+          ],
+          [
+            -1.56066,
+            52.39416
+          ]
+        ]
+      },
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "profile": "bus",
+        "distance": "11340.55",
+        "time": "1115.311"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5075,
+          52.41067
+        ]
+      },
+      "properties": {
+        "index": "0",
+        "distance": "0",
+        "time": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.50347,
+          52.40849
+        ]
+      },
+      "properties": {
+        "index": "1",
+        "distance": "573.4359",
+        "time": "86.54638"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "38",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.50383,
+          52.40721
+        ]
+      },
+      "properties": {
+        "index": "2",
+        "distance": "713.5953",
+        "time": "107.4483"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.50596,
+          52.40662
+        ]
+      },
+      "properties": {
+        "index": "3",
+        "distance": "935.0547",
+        "time": "140.4744"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "64",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.50822,
+          52.40529
+        ]
+      },
+      "properties": {
+        "index": "4",
+        "distance": "1250.037",
+        "time": "187.4476"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "99",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.51172,
+          52.40545
+        ]
+      },
+      "properties": {
+        "index": "5",
+        "distance": "1626.267",
+        "time": "240.2457"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "162",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.51418,
+          52.40196
+        ]
+      },
+      "properties": {
+        "index": "6",
+        "distance": "2284.684",
+        "time": "336.8577"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "193",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.51557,
+          52.40107
+        ]
+      },
+      "properties": {
+        "index": "7",
+        "distance": "2560.594",
+        "time": "371.3262"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "206",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.51659,
+          52.39797
+        ]
+      },
+      "properties": {
+        "index": "8",
+        "distance": "2917.49",
+        "time": "406.8087"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "218",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.51974,
+          52.39538
+        ]
+      },
+      "properties": {
+        "index": "9",
+        "distance": "3316.787",
+        "time": "446.5067"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "225",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5257,
+          52.39403
+        ]
+      },
+      "properties": {
+        "index": "10",
+        "distance": "3747.743",
+        "time": "478.7464"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "234",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.52932,
+          52.39213
+        ]
+      },
+      "properties": {
+        "index": "11",
+        "distance": "4088.852",
+        "time": "504.1811"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "239",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53188,
+          52.38949
+        ]
+      },
+      "properties": {
+        "index": "12",
+        "distance": "4431.089",
+        "time": "529.7"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "244",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53405,
+          52.38719
+        ]
+      },
+      "properties": {
+        "index": "13",
+        "distance": "4724.735",
+        "time": "551.5957"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5355,
+          52.38563
+        ]
+      },
+      "properties": {
+        "index": "14",
+        "distance": "4947.973",
+        "time": "567.4906"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "268",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53914,
+          52.38188
+        ]
+      },
+      "properties": {
+        "index": "15",
+        "distance": "5434.426",
+        "time": "597.3315"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.54461,
+          52.37623
+        ]
+      },
+      "properties": {
+        "index": "16",
+        "distance": "6164.481",
+        "time": "640.8806"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55585,
+          52.37464
+        ]
+      },
+      "properties": {
+        "index": "17",
+        "distance": "7515.252",
+        "time": "729.5719"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "378",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56252,
+          52.37962
+        ]
+      },
+      "properties": {
+        "index": "18",
+        "distance": "8451.053",
+        "time": "824.2056"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "424",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56575,
+          52.3832
+        ]
+      },
+      "properties": {
+        "index": "19",
+        "distance": "9073.812",
+        "time": "912.204"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "433",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56747,
+          52.38447
+        ]
+      },
+      "properties": {
+        "index": "20",
+        "distance": "9259.916",
+        "time": "930.7064"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "468",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56169,
+          52.38786
+        ]
+      },
+      "properties": {
+        "index": "21",
+        "distance": "9867.21",
+        "time": "989.9226"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "483",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55675,
+          52.38974
+        ]
+      },
+      "properties": {
+        "index": "22",
+        "distance": "10266.05",
+        "time": "1029.575"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "502",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5565,
+          52.39038
+        ]
+      },
+      "properties": {
+        "index": "23",
+        "distance": "10505.93",
+        "time": "1051.231"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "512",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56088,
+          52.39096
+        ]
+      },
+      "properties": {
+        "index": "24",
+        "distance": "10809.74",
+        "time": "1073.885"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "521",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56108,
+          52.39372
+        ]
+      },
+      "properties": {
+        "index": "25",
+        "distance": "11182.87",
+        "time": "1100.985"
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Stop",
+      "Shape": "542",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5606,
+          52.3942
+        ]
+      },
+      "properties": {
+        "index": "26",
+        "distance": "11340.55",
+        "time": "1115.311"
+      }
+    }
+  ]
+}

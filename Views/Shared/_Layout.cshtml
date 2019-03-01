@@ -11,6 +11,7 @@
             integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
             crossorigin=""></script>
     <script src="https://unpkg.com/leaflet.locatecontrol@0.65.2/src/L.Control.Locate.js" integrity="sha256-ZQXYIEZDFgnothFn4ZeSgMy0CXh8pVxlE8pAW0WpsNU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -28,8 +29,8 @@
             <div class="navbar-header">
                  <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="~/images/logo.svg" class="logo"></img> Bus Tracker</a>
             </div>
-          <p class="navbar-text navbar-right"><i class="glyphicon glyphicon-refresh"></i>
-          </p>
+            <p class="navbar-text" style="display: inline-block"><i class="fas fa-sync"></i> <i class="fas fa-plug"></i> <i class="fas fas-times"></i>
+            </p>
         </div>
     </nav>
 

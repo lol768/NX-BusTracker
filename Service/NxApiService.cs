@@ -6,9 +6,11 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
+using BusTracker.Events;
 using BusTracker.Models;
 using CoordinateSharp;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 
@@ -94,6 +96,7 @@ namespace BusTracker.Service
                     {
                         var match = currentData.First(Pred);
                         busLocation.CollectionTimestamp = match.CollectionTimestamp; // this is old, NX haven't updated data
+                        busLocation.Stale = true;
                     }
 
                     if (busLocation.BestGuessPastLocations.Count == 20)
@@ -142,15 +145,21 @@ namespace BusTracker.Service
         {
             while (!stoppingToken.IsCancellationRequested)
             {
+                bool anyFreshData = false;
                 foreach (var route in routes)
                 {
                     Console.WriteLine("Fetching for " + route);
                     try
                     {
-                        var dataInbound = await GetLocationsForRoute(route, TravelDirection.Inbound, stoppingToken, _data.GetValueOrDefault(route + "-Inbound") ?? new List<BusLocation>());
-                        var dataOutbound = await GetLocationsForRoute(route, TravelDirection.Outbound, stoppingToken, _data.GetValueOrDefault(route + "-Outbound") ?? new List<BusLocation>());
+                        var dataInbound = await GetLocationsForRoute(route, TravelDirection.Inbound, stoppingToken,
+                            _data.GetValueOrDefault(route + "-Inbound") ?? new List<BusLocation>());
+                        var dataOutbound = await GetLocationsForRoute(route, TravelDirection.Outbound, stoppingToken,
+                            _data.GetValueOrDefault(route + "-Outbound") ?? new List<BusLocation>());
                         _data[route + "-Inbound"] = dataInbound;
                         _data[route + "-Outbound"] = dataOutbound;
+
+                        Func<BusLocation, bool> isFresh = l => !l.Stale;
+                        anyFreshData |= (dataInbound.Any(isFresh) || dataOutbound.Any(isFresh));
                     }
                     catch (Exception e)
                     {
@@ -158,12 +167,16 @@ namespace BusTracker.Service
                         Console.WriteLine(e.StackTrace);
                         Console.WriteLine("Skipping!");
                     }
-                    
-                    await Task.Delay(500, stoppingToken);
 
+                    await Task.Delay(100, stoppingToken);
                 }
 
-                await Task.Delay(20000, stoppingToken);
+                if (anyFreshData)
+                {
+                    Changed?.Invoke(new DataChangedEvent{Data=_data});
+                }
+
+            await Task.Delay(20000, stoppingToken);
             }
         }
 
@@ -171,5 +184,7 @@ namespace BusTracker.Service
         {
             return _data;
         }
+
+        public event Action<DataChangedEvent> Changed;
     }
 }

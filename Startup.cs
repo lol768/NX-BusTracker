@@ -55,6 +55,16 @@ namespace BusTracker
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            var webSocketOptions = new WebSocketOptions
+            {
+                KeepAliveInterval = TimeSpan.FromSeconds(30),
+            };
+            webSocketOptions.AllowedOrigins.Add("https://bt.adamwilliams.eu");
+            webSocketOptions.AllowedOrigins.Add("https://localhost:5001");
+            webSocketOptions.AllowedOrigins.Add("https://127.0.0.1:5001");
+
+            app.UseWebSockets(webSocketOptions);
+
 
             app.UseMvc(routes =>
             {

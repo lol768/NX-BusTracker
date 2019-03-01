@@ -1,7 +1,12 @@
 (function () {
     var map;
+    var knownStops = {};
     var darkMode = document.body.classList.contains("dark");
     document.addEventListener("DOMContentLoaded", e => {
+        $(".fa-plug").hide();
+        $(".fa-sync").hide();
+        $(".fa-times").hide();
+
         map = L.map('map').setView([52.35, -1.5], 12);
         var style = darkMode ? "dark" : "light";
         L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/' + style + '-v9/tiles/256/{z}/{x}/{y}@2x?access_token={accessToken}', {
@@ -15,6 +20,7 @@
             iconLoading: "glyphicon glyphicon-option-horizontal",
         }).addTo(map);
         grabData();
+        connectWebSocket();
     });
     
     /** @type Marker[] **/
@@ -24,49 +30,70 @@
     
     const blueIcon = L.icon({
         iconUrl: '/images/bus_blue.svg',
-        iconSize: [32, 32], // size of the icon
-        iconAnchor: [16, 16], // point of the icon which will correspond to marker's location
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconSize: [32, 32], 
+        iconAnchor: [16, 16],
+        popupAnchor: [0, 0]
     });
     const greenIcon = L.icon({
         iconUrl: '/images/bus_green.svg',
-        iconSize: [32, 32], // size of the icon
-        iconAnchor: [16, 16], // point of the icon which will correspond to marker's location
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconSize: [32, 32],
+        iconAnchor: [16, 16],
+        popupAnchor: [0, 0]
     });
 
     const purpleIcon = L.icon({
         iconUrl: '/images/bus_purple.svg',
-        iconSize: [32, 32], // size of the icon
-        iconAnchor: [16, 16], // point of the icon which will correspond to marker's location
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconSize: [32, 32],
+        iconAnchor: [16, 16],
+        popupAnchor: [0, 0]
     });
 
     const blackIcon = L.icon({
         iconUrl: '/images/bus_black.svg',
-        iconSize: [32, 32], // size of the icon
-        iconAnchor: [16, 16], // point of the icon which will correspond to marker's location
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconSize: [32, 32],
+        iconAnchor: [16, 16],
+        popupAnchor: [0, 0]
     });
 
     const lightIcon = L.icon({
         iconUrl: '/images/bus_light.svg',
-        iconSize: [32, 32], // size of the icon
-        iconAnchor: [16, 16], // point of the icon which will correspond to marker's location
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconSize: [32, 32],
+        iconAnchor: [16, 16],
+        popupAnchor: [0, 0]
     });
 
     const stopIcon = L.icon({
-        iconUrl: '/images/stop.svg',
-        iconSize: [8, 8], // size of the icon
-        iconAnchor: [4, 4], // point of the icon which will correspond to marker's location
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconUrl: darkMode ? '/images/stop_light.svg' : '/images/stop.svg',
+        iconSize: [8, 8],
+        iconAnchor: [4, 4],
+        popupAnchor: [0, 0]
     });
 
     const plottedRoutes = {};
 
-    setInterval(grabData, 10000);
-    grabData();
+    //setInterval(grabData, 10000);
+    function connectWebSocket() {
+        const endpoint = "wss://" + window.location.host + "/Home/Websocket";
+        const ws = new WebSocket(endpoint);
+        ws.onmessage = (d) => {
+            if ("data" in d) {
+                console.log(d.data);
+                handleRetrievedData(JSON.parse(d.data));
+            }
+        };
+        ws.onopen = () => {
+            $(".fa-plug").show();
+        };
+        const error = () => {
+            $(".fa-times").show();
+            connectWebSocket();
+        };
+        ws.onerror = error;
+        ws.onclose = error;
+    }
+    
+    //grabData();
+    connectWebSocket();
     plotRoutes();
 
     function updateRouteLayerFromCheckbox() {
@@ -101,57 +128,100 @@
         existingStops[stop.atcoCode] = container;
     }
 
+    function featClick(feature, layer) {
+        let name = feature.properties.junction ? feature.properties.junction : feature.properties.name;
+        let maxspeed = feature.properties.maxspeed !== undefined ? feature.properties.maxspeed : "unknown speed";
+        let popupText = "<b>" + name + "</b> - " + maxspeed;
+        
+        if (name === undefined) {
+            return;
+        }
+
+        layer.bindPopup(popupText, {
+            closeButton: true,
+            offset: L.point(0, 0)
+        });
+        layer.on('click', function() {
+            layer.openPopup();
+            console.log(feature.properties);
+        });
+    }
+
     function plotRoutes() {
         let elevenInbound = fetch("/js/11-inbound.json").then(r => r.json()).then(data => {
             for (var stop of data.stops) {
+                knownStops[stop.atcoCode] = stop;
                 makeStopMarker(stop, "11, towards Coventry");
             }
-            var latlngs = [];
-            for (var point of data.waypoints) {
-                latlngs.push([point.latitude, point.longitude]);
-            }
-            var polyline = L.polyline(latlngs, {color: 'red'});
-            plottedRoutes["11-inbound.json"] = polyline;
+        });
+
+        let elevenInboundBetter = fetch("/js/11-inbound-better.json").then(r => r.json()).then(data => {
+            var geo11I = L.geoJSON(data, {
+                onEachFeature: featClick,
+                filter: function(feature, layer) {
+                    return feature.name !== "Stop";
+                },
+                style: {"color": "#4b77be"}
+            });
+            plottedRoutes["11-inbound.json"] = geo11I;
+        });
+
+        let elevenOutboundBetter = fetch("/js/11-outbound-better.json").then(r => r.json()).then(data => {
+            var geo11O = L.geoJSON(data, {
+                onEachFeature: featClick,
+                filter: function(feature, layer) {
+                    return feature.name !== "Stop";
+                },
+                style: {"color": "#4b77be"}
+            });
+            plottedRoutes["11-outbound.json"] = geo11O;
         });
 
         let elevenOutbound = fetch("/js/11-outbound.json").then(r => r.json()).then(data => {
             for (var stop of data.stops) {
+                knownStops[stop.atcoCode] = stop;
                 makeStopMarker(stop, "11, towards Leamington");
             }
-            var latlngs = [];
-            for (var point of data.waypoints) {
-                latlngs.push([point.latitude, point.longitude]);
-            }
-            var polyline = L.polyline(latlngs, {color: 'teal'});
-            plottedRoutes["11-outbound.json"] = polyline;
+            
         });
 
         let twelveXOutbound = fetch("/js/12X-outbound.json").then(r => r.json()).then(data => {
             for (var stop of data.stops) {
+                knownStops[stop.atcoCode] = stop;
                 makeStopMarker(stop, "12X, towards Warwick Uni");
             }
-            var latlngs = [];
-            for (var point of data.waypoints) {
-                latlngs.push([point.latitude, point.longitude]);
-            }
-            var polyline = L.polyline(latlngs, {color: 'green'});
-            plottedRoutes["12X-outbound.json"] = polyline;
-
-
+        });
+        
+        let twelveXOutboundRoute = fetch("/js/12X-outbound-better.json").then(r => r.json()).then(data => {
+            var geo12xO = L.geoJSON(data, {
+                onEachFeature: featClick,
+                filter: function(feature, layer) {
+                    return feature.name !== "Stop";
+                },
+                style: {"color": "green"}
+            });
+            plottedRoutes["12X-outbound.json"] = geo12xO;
         });
 
         let twelveXInbound = fetch("/js/12X-inbound.json").then(r => r.json()).then(data => {
             for (var stop of data.stops) {
+                knownStops[stop.atcoCode] = stop;
                 makeStopMarker(stop, "12X, towards Coventry");
             }
-            var latlngs = [];
-            for (var point of data.waypoints) {
-                latlngs.push([point.latitude, point.longitude]);
-            }
-            var polyline = L.polyline(latlngs, {color: 'purple'});
-            plottedRoutes["12X-inbound.json"] = polyline;
         });
-        Promise.all([elevenInbound, elevenOutbound, twelveXInbound, twelveXOutbound]).then(() => {
+        
+        let twelveXInboundRoute = fetch("/js/12X-inbound-better.json").then(r => r.json()).then(data => {
+            var geo12xI = L.geoJSON(data, {
+                onEachFeature: featClick,
+                filter: function(feature, layer) {
+                    return feature.name !== "Stop";
+                },
+                style: {"color": "green"}
+            });
+            plottedRoutes["12X-inbound.json"] = geo12xI;
+        });
+        
+        Promise.all([elevenInbound, elevenOutbound, elevenInboundBetter, twelveXOutboundRoute, twelveXInbound, twelveXOutbound, twelveXInboundRoute]).then(() => {
             $("input").each(updateRouteLayerFromCheckbox);
         });
 
@@ -165,9 +235,16 @@
         if (speed < 0) {
             speed = "???";
         }
+        var nextStop = "";
+        if (busLoc.atStop in knownStops) {
+            nextStop = "<br/>Current stop: " + knownStops[busLoc.atStop].name;
+        }
+        if (busLoc.nextStop in knownStops) {
+            nextStop = "<br />Next stop: " + knownStops[busLoc.nextStop].name;
+        }
         popup.innerHTML = mapName(key) + "<br /><small>Collected at " + ("0" + ts.getUTCHours()).slice(-2) + ":" +
             ("0" + ts.getUTCMinutes()).slice(-2) + ":" +
-            ("0" + ts.getUTCSeconds()).slice(-2) + "</small><br />" + speed + " mph";
+            ("0" + ts.getUTCSeconds()).slice(-2) + "</small><br />" + speed + " mph<br />" + nextStop;
         return popup;
     }
 
@@ -221,25 +298,28 @@
         }
     }
 
-    function grabData() {
-        $(".glyphicon-refresh").fadeIn();
-        fetch("/Home/Data").then(r => r.json()).then(data => {
-            console.log("Fetched!");
-            var dataCount = Object.keys(data).map(k => data[k].length).reduce((a, b) => a+b);
-            if (dataCount === oldMarkers.length) {
-                console.log("In place update");
-                updateInPlace(oldMarkers, data);
-            } else {
-                for (var m of oldMarkers) {
-                    map.removeLayer(m);
-                }
-                oldMarkers = [];
-                oldMarkersByRoute = {};
-                console.log("Full update,", dataCount, oldMarkers.length);
-                updateAll(data);
+    function handleRetrievedData(data) {
+        console.log("Fetched!");
+        var dataCount = Object.keys(data).map(k => data[k].length).reduce((a, b) => a + b);
+        if (dataCount === oldMarkers.length) {
+            console.log("In place update");
+            updateInPlace(oldMarkers, data);
+        } else {
+            for (var m of oldMarkers) {
+                map.removeLayer(m);
             }
-            $(".glyphicon-refresh").fadeOut();
+            oldMarkers = [];
+            oldMarkersByRoute = {};
+            console.log("Full update,", dataCount, oldMarkers.length);
+            updateAll(data);
+        }
+    }
 
+    function grabData() {
+        $(".fa-sync").fadeIn();
+        fetch("/Home/Data").then(r => r.json()).then(data => {
+            handleRetrievedData(data);
+            $(".fa-sync").fadeOut();
         });
     }
     

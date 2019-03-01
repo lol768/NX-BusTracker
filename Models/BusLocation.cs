@@ -28,5 +28,7 @@ namespace BusTracker.Models
         public List<BusLocation> BestGuessPastLocations { get; set; }
 
         public double SpeedGuess { get; set; }
+        
+        public Boolean Stale { get; set; }
     }
 }
