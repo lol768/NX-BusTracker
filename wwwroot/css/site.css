@@ -48,16 +48,15 @@ body {
 }
 
 #map {
-    width: 100%; height: 85vh;
-    margin-top: 2em;
+    width: 100vw;
+    height: 100vh;
 }
 
-body #map {
-    
+.settings {
+    margin-left: 1em;
 }
-
 body {
-    padding-bottom: 0;
+    padding: 0;
 }
 
 .leaflet-control.active .glyphicon {
@@ -88,6 +87,27 @@ nav {
     text-align: center;
     padding: 0em 2em;
     padding-top: 1em;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.settings i {
+    color: white;
+}
+
+.settings {
+    cursor: pointer;
+}
+
+.controls label {
+    margin-bottom: 20px;
+}
+
+.controls .btn {
+    max-width: 120px;
 }
 
 label + label {
@@ -101,42 +121,4 @@ img.logo {
 
 .navbar-brand {
     color: #fff !important;
-}
-
-#countdown {
-    height: 20px;
-    width: 20px;
-    text-align: center;
-}
-
-#countdown-number {
-    color: white;
-    display: inline-block;
-    line-height: 20px;
-}
-
-svg {
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-    transform: rotateY(-180deg) rotateZ(-90deg);
-}
-
-svg circle {
-    stroke-dasharray: 57px;
-    stroke-dashoffset: 0px;
-    stroke-linecap: round;
-    stroke-width: 2px;
-    stroke: white;
-    fill: none;
-    animation: countdown 20s linear infinite forwards;
-}
-
-@keyframes countdown {
-    from {
-        stroke-dashoffset: 0px;
-    }
-    to {
-        stroke-dashoffset: 57px;
-    }
 }
