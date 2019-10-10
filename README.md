@@ -5,7 +5,7 @@ A web app to show live status of NX bus routes around Coventry, Kenilworth and L
 BrowserStack
 ------------
 
-[![BrowserStack logo](browserstack.svg)](https://www.browserstack.com)
+<a href="https://www.browserstack.com"><img alt="Browserstack logo" src="browserstack.svg" width=200></a>
 
 This project has been tested for cross-browser support using access provided by BrowserStack's open source programme.
 
